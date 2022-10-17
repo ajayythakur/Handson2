@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>FORMS</h1> 
+   <form action="submit.html" method="get">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" placeholder="Enter First Name" required value="" name="fname"><br><br>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" placeholder="Enter Email Address" value="" name="email" required><br><br>
+    <label for="password">Password
+    </label>
+    <input type="password" id="password" placeholder="Enter Password" name="password"><br><br>
+    <label for="language">Language</label><br>
+    <input type="radio" id="language" value="React"  name="language">React
+    <br>
+    <input type="radio" id="language" value="Angular"  name="language">Angular
+    <br><input type="radio" id="language" value="Vue"  name="language">Vue
+    <br><br>
+    <label for="course">Course</label><br>
+    <input type="checkbox" id="course" required name="course" value="MERN">MERN<br>
+    <input type="checkbox" id="course" name="course" value="MEAN">MEAN<br>
+    <input type="checkbox" id="course" name="course" value="MEVN">MEVN<br><br>
+    Field: <br>
+        <select name="" id="">
+            <option value="Select Field">Select Field</option>
+            <option value="Front End" id="field">Front End</option>
+            <option value="Back End">Back End</option>
+            <option value="Full Stack">Full Stack</option>
+        </select>
+        <br><br>
+        <textarea name="textarea" id="" cols="30" rows="10">Enter your feedback here</textarea><br><br>
+        <label for="cont">Phone Number</label>
+        <input type="number" id="cont" name="cont">
+        <br><br>
+        <input type="submit">
+     </form>
+</body>
+</html>
